@@ -14,10 +14,10 @@ export default function Home() {
           OpusClone SaaS
         </div>
         <nav className="flex items-center gap-4">
-          <Link href="/dashboard" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <Link href="/login" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Login
           </Link>
-          <Link href="/dashboard">
+          <Link href="/login">
             <Button size="sm">Começar Grátis</Button>
           </Link>
         </nav>
@@ -39,7 +39,7 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 mb-20">
-          <Link href="/dashboard">
+          <Link href="/login">
             <Button size="lg" className="h-12 px-8 text-base w-full sm:w-auto">
               Criar meu primeiro clipe
               <ArrowRight className="ml-2 h-4 w-4" />
